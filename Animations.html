@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: orchid;
+            animation-name: x;
+            animation-duration: 4s;
+            animation-iteration-count: 2;
+            animation-delay: 2s;
+            animation-fill-mode: forwards;
+            
+        }
+        .box:hover{
+            animation-play-state: running;
+        }
+        @keyframes x{
+            25%{
+                width: 200px;
+                background-color: green;
+                border-radius: 100%
+                
+                
+            }
+            50%{
+                height: 200px;
+                background-color: deepskyblue;
+                transform: translateXY(400px);
+                border-style: dashed;
+            }
+            75%{
+                width: 300px;
+                background-color: yellow;
+                
+            }
+            100%{
+                width: 300px;
+                background-color: sandybrown;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Authorization Request Form</title>    
+</head>
+<body>
+    <div class="form-container">
+        <h2>Authorization Request Form</h2>
+        <form style="background-color: aquamarine;">
+            <div class="form-group">
+                <label for="patient-name">Patient Name</label><br><br>
+                <input type="text" id="patient-name" name="patient-name" placeholder="First" required>
+                <input type="text" name="patient-last-name" placeholder="Last" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth</label><br>
+                <input type="date" id="dob" name="dob" required><br><br>
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label><br><br>
+                <input type="text" id="address" name="address" placeholder="Street Address" required><br><br>
+                <input type="text" name="address-line2" placeholder="Street Address Line 2"><br><br>
+                <input type="text" name="city" placeholder="City" required>
+                <input type="text" name="state" placeholder="Region" required><br><br>
+                <input type="text" name="zip" placeholder="Postal / Zip Code" required>
+                <input type="text" name="Romania" placeholder="Romania" required><br><br>
+            </div>
+            <div class="form-group">
+                <label for="health-plan">Health Plan</label><br><br>
+                <input type="text" id="health-plan" name="health-plan" required>
+            </div>
+            <div class="form-group">
+                <label for="health-plan">Health Plan</label><br><br>
+                <input type="text" id="health-plan" name="health-plan" required>
+            </div>
+            <div class="form-group">
+                <label for="referring-provider">Referring Provider</label><br><br>
+                <input type="text" id="referring-provider" name="referring-provider" required><br><br>
+            </div>
+            <div class="form-group">
+                <label for="provider-signature">Provider Signature</label><br><br>
+                <input type="text" id="provider-signature" name="provider-signature" required>
+            </div>
+            <div class="form-group">
+                <label for="requested-provider">Requested Provider/Facility</label><br><br>
+                <input type="text" id="requested-provider-first" name="requested-provider-first" placeholder="First" required>
+                <input type="text" id="requested-provider-last" name="requested-provider-last" placeholder="Last" required><br><br>
+            </div>
+            <div class="form-group">
+                <label for="requested-physician">Requested Physician/Specialist</label><br><br>
+                <input type="text" id="requested-physician-first" name="requested-physician-first" placeholder="First" required>
+                <input type="text" id="requested-physician-last" name="requested-physician-last" placeholder="Last" required><br><br>
+            </div>
+            <div class="form-group">
+                <label for="requested-services">Requested Service(s)</label><br><br>
+                <input type="text" id="requested-services" name="requested-services" required>
+            </div>
+            <div class="form-group">
+                <input style="border-radius: 20px; width: 100px; height: 20px;" type="submit" value="send">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

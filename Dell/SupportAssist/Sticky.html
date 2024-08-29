@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 20px;
+        }
+        .note{
+            position: relative;
+            width: 200px;
+            height: 200px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0,2);
+            color: white;
+            font-size: 14px;
+        }
+        .red{background-color: red;}
+        .blue{background-color: blue;}   
+        .yellow{background-color: yellow;}
+        .aqua{background-color: aqua;}
+        .violet{background-color: violet;}
+        .green{background-color: green;}
+        .orange{background-color: orange;}
+        .pink{background-color: pink;}
+
+        .date{
+            display: block;
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        .close{
+            position: absolute;
+            top: 10px;
+            margin-left: 190px;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <i style=""
+      <div class="note red">
+         <span class="date">3/18/2020 12:40PM</span>
+         <p>Text here...</p>
+         <button class="close">x</button>
+      </div>
+      <div class="note blue">
+        <span class="date">3/18/2020 12:40PM</span>
+      <p>Text here...</p>
+      <button class="close">x</button>
+      </div>
+      <div class="note yellow">
+        <span class="date">3/18/2020 12:40PM</span>
+      <p>Text here...</p>
+      <button class="close">x</button>
+      </div>
+      <div class="note aqua">
+        <span class="date">3/18/2020 12:40PM</span>
+      <p>Text here...</p>
+      <button class="close">x</button>
+      </div>
+      <div class="note violet">
+        <span class="date">3/18/2020 12:40PM</span>
+      <p>Text here...</p>
+      <button class="close">x</button>
+      </div>
+      <div class="note green">
+        <span class="date">3/18/2020 12:40PM</span>
+        <p>Text here...</p>
+        <button class="close">x</button>
+     </div>
+     <div class="note orange">
+        <span class="date">3/18/2020 12:40PM</span>
+        <p>Text here...</p>
+        <button class="close">x</button>
+     </div>
+     <div class="note pink">
+        <span class="date">3/18/2020 12:40PM</span>
+        <p>Text here...</p>
+        <button class="close">x</button>
+     </div>
+    </div> 
+</body>
+</html>

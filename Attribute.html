@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Attribute</title>
+        <style>
+           p[title |="vijju"]{
+            background-color: aqua;
+            border: solid black;
+            font-style: normal;
+           }
+           p[x $="vijjubunny"]{
+            background-color: pink;
+            border: dotted purple;
+            font-style: normal;
+           }
+           p[x ^="bunny"]{
+            background-color: chartreuse;
+            border: dashed blue;
+            font-style: normal;
+           }
+           p[y *="ramesh"]{
+            background-color: paleturquoise;
+            border: double black;
+            font-style: normal;
+           }
+           p[y ~="suresh"]{
+            background-color: wheat;
+            border: groove;
+            font-style: normal;
+           }
+        </style>
+    </head>
+    <body>
+        <p title="vijju"> vijju vijjubunny</p>
+        <p x="vijjubunny">vijjubunny</p>
+        <p x="bunny">vijju vijju bunny</p>
+        <p y="ramesh">vijju</p>
+        <p y="suresh">bhargavi vijju</p>
+    </body>
+</html>

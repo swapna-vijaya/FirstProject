@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Application Form</title>
+   
+    <style>
+        #last{
+            background-color: lightgrey;
+            width:100%;
+
+        }
+       #plan{
+        float:left;
+        margin: 5px;
+        background-color: lightgrey;
+        border: 2px solid black;
+        
+        
+       }
+            
+       form{
+                background-color: aqua;
+                text-align: left;
+                width: fit-content; 
+                height: max-content;
+                
+            }  
+
+        
+        
+        #div{
+            border:2px solid black;
+            width:100%;
+            
+        }
+        body{
+                display: flex;
+                flex-flow: column wrap;
+                float:center;
+                color:darkgreen;
+                width: 50%;
+                margin-left: 25%;
+            }
+            
+
+    </style>
+     </head>
+    <body>
+        
+        <form>
+            <fieldset>
+        
+            <legend align="center">Application Form</legend>
+             <label>General Questions</label><br>
+             <label>Proposed Name<input type="text" style="border: none; text-decoration: underline;"></label><br>
+             <label>Birth date:</label><input type="date" style="border:hidden;" >
+             <label>Gender</label>
+             <label><input type="radio"> Male</label>
+             <label><input type="radio"> Female</label>
+             <label>Passport No:<input type="text;" style="border: none;"></label><br>
+             <label>Address:</label><br>
+             <label>Phone Number:<input type="number" ></label>
+             <label>Email Address:<input type="text"></label>
+             <br>
+             <label>Id Number:</label>
+             <label>Social Security Number:</label>
+             <labe>Status: <input type="radio"> Single<input type="Radio"> Married
+            <input type="radio" > Divorced <input type="radio"> others</labe><br>
+            <div width="50%">Occupation:<input type="text" styel="border:hidden"> Are you a referee? <input type="radio">yes<input type="radio">no</div>
+            <br>
+            <strong>Personal Details</strong><br>
+            <label>Name Of Beneficiary:<input type="text"></label><br>
+            <label>Bank Account:(or id number for confirmation only)<input type="text"></label>
+            <br><label>Name and Address Of Benificiary's Bank:</label><br>
+            <input type="text" style="width:100%;"><br>
+            <input type="text" style="width:100%"><br>
+            <div id="div" style="column-count: 3;"><label>Employee:
+                <input type="radio">yes<input type="radio">no
+                <p>Plan Choice:<area></p>
+             Spouse:<input type="radio">yes<input type="radio">no
+             <p>Plan Choice:<area></p>
+            Children:<input type="radio">yes<input type="radio">no
+            <p>Plan Choice:<area></p>
+           </label>
+        
+            </div>
+        
+        <div id="plan"style="text: size adjust 2px;"><input type="radio"> PlanA
+            <p>Starting from $25 per week"<br>
+                (parties excl VAT,activation fees apply)<br>
+                See more details on page 17 
+
+            </p>
+        </div>
+        <div id="plan"><input type="radio"> PlanB
+            <p>Starting from $21 per week"<br>
+                (parties excl VATy)<br>
+                See more details on page 17 
+       </div>
+       
+
+
+       <br><br><br><br><br><br><br>
+       <strong>The Policy</strong><br>
+       <label>Units:<input type="text"></label>
+       <label>Annual Premium:<input type="text"></label><br>
+       <label>Payment Mode:<input type="radio">Annual<input type="radio">
+        Semi-Annual   <input type="radio">  Monthly BAT(complete BAT cord)</label><br>
+         <label>Cash with Application:$<input type="text" style="border:none"></label><br>
+         <label>Planned Modal Premium: $<input type="text" style="border:none"></label><br>
+        
+         <div style="column-count: 2;" id="Last">
+            Terms $ conditions<p>
+                improvement should be measured regularly and assessed in
+                order for you to know when beneficial and what is not.
+                This will help you set new target
+            </p>
+            Signature:<br>
+            <input type="text" placeholder="X"><br>
+            Date:____
+         
+         </div>
+         
+        
+        </fieldset>
+        </form>
+   
+    </body>
+</html>
